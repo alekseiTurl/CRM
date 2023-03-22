@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM</title>
+  <link rel="stylesheet" href="./entry.css">
+  <script type="module" src="./entry.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__container container flex">
+      <div class="header__logo-wrapper">
+        <svg class="header__logo" width="50" height="50" viewbox="0 0 50 50" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="25" r="25" fill="#9873FF" />
+          <path
+            d="M17.2617 29.082C17.2617 29.75 17.1035 30.3154 16.7871 30.7783C16.4766 31.2354 16.0107 31.584 15.3896 31.8242C14.7686 32.0586 13.9951 32.1758 13.0693 32.1758C12.3838 32.1758 11.7949 32.1318 11.3027 32.0439C10.8164 31.9561 10.3242 31.8096 9.82617 31.6045V29.3896C10.3594 29.6299 10.9307 29.8291 11.54 29.9873C12.1553 30.1396 12.6943 30.2158 13.1572 30.2158C13.6787 30.2158 14.0508 30.1396 14.2734 29.9873C14.502 29.8291 14.6162 29.624 14.6162 29.3721C14.6162 29.208 14.5693 29.0615 14.4756 28.9326C14.3877 28.7979 14.1943 28.6484 13.8955 28.4844C13.5967 28.3145 13.1279 28.0947 12.4893 27.8252C11.874 27.5674 11.3672 27.3066 10.9688 27.043C10.5762 26.7793 10.2832 26.4688 10.0898 26.1113C9.90234 25.748 9.80859 25.2881 9.80859 24.7314C9.80859 23.8232 10.1602 23.1406 10.8633 22.6836C11.5723 22.2207 12.5186 21.9893 13.7021 21.9893C14.3115 21.9893 14.8916 22.0508 15.4424 22.1738C15.999 22.2969 16.5703 22.4932 17.1562 22.7627L16.3477 24.6963C15.8613 24.4854 15.4014 24.3125 14.9678 24.1777C14.54 24.043 14.1035 23.9756 13.6582 23.9756C13.2656 23.9756 12.9697 24.0283 12.7705 24.1338C12.5713 24.2393 12.4717 24.4004 12.4717 24.6172C12.4717 24.7754 12.5215 24.916 12.6211 25.0391C12.7266 25.1621 12.9258 25.2998 13.2188 25.4521C13.5176 25.5986 13.9541 25.7891 14.5283 26.0234C15.085 26.252 15.5684 26.4922 15.9785 26.7441C16.3887 26.9902 16.7051 27.2979 16.9277 27.667C17.1504 28.0303 17.2617 28.502 17.2617 29.082ZM22.0342 18.3242V24.4414C22.0342 24.8105 22.0195 25.1797 21.9902 25.5488C21.9609 25.918 21.9287 26.2871 21.8936 26.6562H21.9287C22.1104 26.3984 22.2949 26.1436 22.4824 25.8916C22.6758 25.6396 22.8809 25.3965 23.0977 25.1621L25.8486 22.1738H28.8721L24.9697 26.4365L29.1094 32H26.0156L23.1855 28.0186L22.0342 28.9414V32H19.3535V18.3242H22.0342ZM33.1963 18.3242V21.5059C33.1963 21.875 33.1846 22.2412 33.1611 22.6045C33.1436 22.9678 33.1201 23.249 33.0908 23.4482H33.1963C33.4541 23.0439 33.8057 22.7012 34.251 22.4199C34.6963 22.1328 35.2734 21.9893 35.9824 21.9893C37.084 21.9893 37.9775 22.4199 38.6631 23.2812C39.3486 24.1426 39.6914 25.4053 39.6914 27.0693C39.6914 28.1885 39.5332 29.1289 39.2168 29.8906C38.9004 30.6465 38.458 31.2178 37.8896 31.6045C37.3213 31.9854 36.6621 32.1758 35.9121 32.1758C35.1914 32.1758 34.623 32.0469 34.207 31.7891C33.791 31.5312 33.4541 31.2412 33.1963 30.9189H33.0117L32.5635 32H30.5156V18.3242H33.1963ZM35.1211 24.1338C34.6523 24.1338 34.2803 24.2305 34.0049 24.4238C33.7295 24.6172 33.5273 24.9072 33.3984 25.2939C33.2754 25.6807 33.208 26.1699 33.1963 26.7617V27.0518C33.1963 28.0068 33.3369 28.7393 33.6182 29.249C33.8994 29.7529 34.4121 30.0049 35.1562 30.0049C35.707 30.0049 36.1436 29.75 36.4658 29.2402C36.7939 28.7305 36.958 27.9951 36.958 27.0342C36.958 26.0732 36.7939 25.3496 36.4658 24.8633C36.1377 24.377 35.6895 24.1338 35.1211 24.1338ZM41.5283 30.7432C41.5283 30.1924 41.6777 29.8057 41.9766 29.583C42.2812 29.3604 42.6475 29.249 43.0752 29.249C43.4912 29.249 43.8486 29.3604 44.1475 29.583C44.4521 29.8057 44.6045 30.1924 44.6045 30.7432C44.6045 31.2705 44.4521 31.6514 44.1475 31.8857C43.8486 32.1201 43.4912 32.2373 43.0752 32.2373C42.6475 32.2373 42.2812 32.1201 41.9766 31.8857C41.6777 31.6514 41.5283 31.2705 41.5283 30.7432Z"
+            fill="white" />
+        </svg>
+      </div>
+      <div class="autocomplete">
+        <input id="mainInput" class="header__search-input" type="search" placeholder="Введите запрос">
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container main__container">
+      <h2 class="main__title">Клиенты</h2>
+      <div class="main__table-wrapper">
+        <div class="table__preloader flex">
+          <svg id="loading-spinner" width="80" height="80" viewbox="0 0 80 80" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle id="loading-circle-large" cx="40" cy="40" r="36" stroke="#9873FF" stroke-width="8" />
+          </svg>
+        </div>
+        <table class="table">
+          <tbody class="tbody">
+            <tr class="table__head table-head">
+              <th class="table-head__cell">
+                <button class="btn-reset sort-btn sort-btn--id sort-btn--active flex">
+                  <span class="table-head__text">ID</span>
+                  <svg class="table-head__arrow sorted-upwards" width="8" height="8" viewbox="0 0 8 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z" fill="#9873FF" />
+                  </svg>
+                </button>
+              </th>
+              <th class="table-head__cell">
+                <button class="btn-reset sort-btn sort-btn--name flex">
+                  <span class="table-head__text">Фамилия Имя Отчество</span>
+                  <svg class="table-head__arrow" width="8" height="8" viewbox="0 0 8 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z" fill="#9873FF" />
+                  </svg>
+                  <span class="table-head__sort-text">А-Я</span>
+                </button>
+              </th>
+              <th class="table-head__cell">
+                <button class="btn-reset sort-btn sort-btn--create flex">
+                  <span class="table-head__text">Дата и время создания</span>
+                  <svg class="table-head__arrow" width="8" height="8" viewbox="0 0 8 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z" fill="#9873FF" />
+                  </svg>
+                </button>
+              </th>
+              <th class="table-head__cell">
+                <button class="btn-reset sort-btn sort-btn--change flex">
+                  <span class="table-head__text">Последние изменения</span>
+                  <svg class="table-head__arrow" width="8" height="8" viewbox="0 0 8 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 4L7.295 3.295L4.5 6.085L4.5 0L3.5 0L3.5 6.085L0.71 3.29L0 4L4 8L8 4Z" fill="#9873FF" />
+                  </svg>
+                </button>
+              </th>
+              <th class="table-head__cell">
+                <span class="table-head__text">Контакты</span>
+              </th>
+              <th class="table-head__cell">
+                <span class="table-head__text">Действия</span>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button class="main__btn btn-reset">
+        <svg width="23" height="16" viewbox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z"
+            fill="#9873FF" />
+        </svg>
+        <span>Добавить клиента</span>
+      </button>
+
+      <div class="modal modal-delete flex">
+        <div class="modal__content modal-delete__content">
+          <button class="modal__close-btn btn-reset">
+            <svg width="29" height="29" viewbox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22.2333 7.73333L21.2666 6.76666L14.4999 13.5334L7.73324 6.7667L6.76658 7.73336L13.5332 14.5L6.7666 21.2667L7.73327 22.2333L14.4999 15.4667L21.2666 22.2334L22.2332 21.2667L15.4666 14.5L22.2333 7.73333Z"
+                fill="#B0B0B0" />
+            </svg>
+          </button>
+          <h3 class="modal__header modal-delete__header">Удалить клиента</h3>
+          <p class="modal-delete__alert-message">
+            Вы действительно хотите удалить данного клиента?
+          </p>
+          <div class="form__btns-wrapper">
+            <button class="form__save-btn modal-delete__delete-btn btn-reset">Удалить</button>
+            <button class="form__delete-btn modal-delete__cancel-btn btn-reset">Отмена</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal-change flex">
+        <div class="modal__content">
+          <button class="modal__close-btn btn-reset">
+            <svg width="29" height="29" viewbox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22.2333 7.73333L21.2666 6.76666L14.4999 13.5334L7.73324 6.7667L6.76658 7.73336L13.5332 14.5L6.7666 21.2667L7.73327 22.2333L14.4999 15.4667L21.2666 22.2334L22.2332 21.2667L15.4666 14.5L22.2333 7.73333Z"
+                fill="#B0B0B0" />
+            </svg>
+          </button>
+          <div class="modal__header-wrapper flex">
+            <h3 class="modal__header">Изменить данные</h3>
+            <p class="modal__client-id">ID: 354235</p>
+          </div>
+          <form class="modal__form form" novalidate>
+            <div class="form__name-inputs-wrapper">
+              <div class="wrapper name-input-wrapper">
+                <input type="text" class="form__input" name="surname" data-pristine-minlength="2"
+                  data-pristine-pattern="/^[а-яА-ЯёЁ\s-]+$/" data-pristine-required-message="Это поле обязательно"
+                  data-pristine-minlength-message="Введите не менее 2-х символов"
+                  data-pristine-pattern-message="Допустимы только кириллица, дефис и пробел" required>
+                <label class="floating-label">Фамилия<span>*</span></label>
+              </div>
+              <div class="wrapper name-input-wrapper">
+                <input type="text" class="form__input" name="name" data-pristine-minlength="2"
+                  data-pristine-pattern="/^[а-яА-ЯёЁ\s-]+$/" data-pristine-required-message="Это поле обязательно"
+                  data-pristine-minlength-message="Введите не менее 2-х символов"
+                  data-pristine-pattern-message="Допустимы только кириллица, дефис и пробел" required>
+                <label class="floating-label">Имя<span>*</span></label>
+              </div>
+              <div class="wrapper name-input-wrapper">
+                <input type="text" class="form__input" name="middle-name" data-pristine-minlength="2"
+                  data-pristine-pattern="/^[а-яА-ЯёЁ\s-]+$/"
+                  data-pristine-minlength-message="Введите не менее 2-х символов"
+                  data-pristine-pattern-message="Допустимы только кириллица, дефис и пробел">
+                <label class="floating-label">Отчество</label>
+              </div>
+            </div>
+
+            <div class="form__add-contact">
+              <div class="form__contacts-wrapper"></div>
+              <button type="button" class="add-contact__btn btn-reset">
+                <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.00001 3.66659C6.63334 3.66659 6.33334 3.96659 6.33334 4.33325V6.33325H4.33334C3.96668 6.33325 3.66668 6.63325 3.66668 6.99992C3.66668 7.36659 3.96668 7.66659 4.33334 7.66659H6.33334V9.66659C6.33334 10.0333 6.63334 10.3333 7.00001 10.3333C7.36668 10.3333 7.66668 10.0333 7.66668 9.66659V7.66659H9.66668C10.0333 7.66659 10.3333 7.36659 10.3333 6.99992C10.3333 6.63325 10.0333 6.33325 9.66668 6.33325H7.66668V4.33325C7.66668 3.96659 7.36668 3.66659 7.00001 3.66659ZM7.00001 0.333252C3.32001 0.333252 0.333344 3.31992 0.333344 6.99992C0.333344 10.6799 3.32001 13.6666 7.00001 13.6666C10.68 13.6666 13.6667 10.6799 13.6667 6.99992C13.6667 3.31992 10.68 0.333252 7.00001 0.333252ZM7.00001 12.3333C4.06001 12.3333 1.66668 9.93992 1.66668 6.99992C1.66668 4.05992 4.06001 1.66659 7.00001 1.66659C9.94001 1.66659 12.3333 4.05992 12.3333 6.99992C12.3333 9.93992 9.94001 12.3333 7.00001 12.3333Z"
+                    fill="#9873FF" />
+                </svg>
+                <span>Добавить контакт</span>
+              </button>
+            </div>
+
+            <div class="form__btns-wrapper">
+              <div class="server-error-message"></div>
+              <button type="submit" class="form__save-btn btn-reset">Сохранить</button>
+              <button type="button" class="form__delete-btn btn-reset">Удалить клиента</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal modal-add flex">
+        <div class="modal__content">
+          <button class="modal__close-btn btn-reset">
+            <svg width="29" height="29" viewbox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22.2333 7.73333L21.2666 6.76666L14.4999 13.5334L7.73324 6.7667L6.76658 7.73336L13.5332 14.5L6.7666 21.2667L7.73327 22.2333L14.4999 15.4667L21.2666 22.2334L22.2332 21.2667L15.4666 14.5L22.2333 7.73333Z"
+                fill="#B0B0B0" />
+            </svg>
+          </button>
+          <h3 class="modal__header modal-add__header">Новый клиент</h3>
+          <form class="modal__form form" novalidate>
+            <div class="form__name-inputs-wrapper">
+              <div class="wrapper name-input-wrapper">
+                <input type="text" class="form__input" name="surname" data-pristine-minlength="2"
+                  data-pristine-pattern="/^[а-яА-ЯёЁ\s-]+$/"
+                  data-pristine-minlength-message="Введите не менее 2-х символов"
+                  data-pristine-pattern-message="Допустимы только кириллица, дефис и пробел"
+                  data-pristine-required-message="Это поле обязательно" required>
+                <label class="floating-label">Фамилия<span>*</span></label>
+              </div>
+              <div class="wrapper name-input-wrapper">
+
+                <input type="text" class="form__input" name="name" data-pristine-minlength="2"
+                  data-pristine-pattern="/^[а-яА-ЯёЁ\s-]+$/"
+                  data-pristine-minlength-message="Введите не менее 2-х символов"
+                  data-pristine-pattern-message="Допустимы только кириллица, дефис и пробел"
+                  data-pristine-required-message="Это поле обязательно" required>
+                <label class="floating-label">Имя<span>*</span></label>
+              </div>
+              <div class="wrapper name-input-wrapper">
+                <input type="text" class="form__input" name="middle-name" data-pristine-minlength="2"
+                  data-pristine-pattern="/^[а-яА-ЯёЁ\s-]+$/"
+                  data-pristine-minlength-message="Введите не менее 2-х символов"
+                  data-pristine-pattern-message="Допустимы только кириллица, дефис и пробел">
+                <label class="floating-label">Отчество</label>
+              </div>
+            </div>
+
+            <div class="form__add-contact">
+              <div class="form__contacts-wrapper"></div>
+              <button type="button" class="add-contact__btn btn-reset">
+                <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.00001 3.66659C6.63334 3.66659 6.33334 3.96659 6.33334 4.33325V6.33325H4.33334C3.96668 6.33325 3.66668 6.63325 3.66668 6.99992C3.66668 7.36659 3.96668 7.66659 4.33334 7.66659H6.33334V9.66659C6.33334 10.0333 6.63334 10.3333 7.00001 10.3333C7.36668 10.3333 7.66668 10.0333 7.66668 9.66659V7.66659H9.66668C10.0333 7.66659 10.3333 7.36659 10.3333 6.99992C10.3333 6.63325 10.0333 6.33325 9.66668 6.33325H7.66668V4.33325C7.66668 3.96659 7.36668 3.66659 7.00001 3.66659ZM7.00001 0.333252C3.32001 0.333252 0.333344 3.31992 0.333344 6.99992C0.333344 10.6799 3.32001 13.6666 7.00001 13.6666C10.68 13.6666 13.6667 10.6799 13.6667 6.99992C13.6667 3.31992 10.68 0.333252 7.00001 0.333252ZM7.00001 12.3333C4.06001 12.3333 1.66668 9.93992 1.66668 6.99992C1.66668 4.05992 4.06001 1.66659 7.00001 1.66659C9.94001 1.66659 12.3333 4.05992 12.3333 6.99992C12.3333 9.93992 9.94001 12.3333 7.00001 12.3333Z"
+                    fill="#9873FF" />
+                </svg>
+                <span>Добавить контакт</span>
+              </button>
+            </div>
+
+            <div class="form__btns-wrapper">
+              <div class="server-error-message"></div>
+              <button type="submit" class="form__save-btn btn-reset">Сохранить</button>
+              <button type="reset" class="form__delete-btn form__reset-btn btn-reset">Отмена</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+</body>
+
+</html>

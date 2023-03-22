@@ -1,0 +1,160 @@
+@media (hover: hover) and (pointer: fine) {
+
+  button .table-head__text:hover {
+    color: var(--black);
+  }
+
+  .contacts__icon:hover g,
+  .contacts__icon:hover path {
+    opacity: 1;
+  }
+
+  .actions__btn:first-child:hover span {
+    color: var(--purple);
+  }
+
+  .actions__btn:last-child:hover span {
+    color: var(--red);
+  }
+
+  .main__btn:not(.main__btn:active):hover {
+    color: white;
+    background-color: var(--purple-light);
+  }
+
+  .main__btn:not(.main__btn:active):hover path {
+    fill: white;
+  }
+
+  .add-contact__delete-btn:hover {
+    border-color: var(--red);
+  }
+
+  .add-contact__delete-btn:hover path {
+    fill: var(--red);
+  }
+
+  .add-contact__btn:not(.btn-disabled):hover {
+    color: var(--purple);
+  }
+
+  .form__save-btn:not(.form__save-btn:active):hover {
+    background-color: var(--purple-light);
+  }
+}
+
+
+@media (max-width: 1150px) {
+
+  .table-head__cell {
+    padding: 0 10px;
+    padding-bottom: 8px;
+  }
+
+  .content-row__cell {
+    padding: 20px 10px;
+  }
+
+  .content-row__cell--contacts {
+    min-width: 130px;
+  }
+
+  .content-row__cell--name {
+    min-width: 190px;
+  }
+
+  .actions__btn:first-child {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 40px 30px 40px 15px;
+  }
+
+  .table__preloader {
+    top: 35px;
+  }
+}
+
+@media (max-width: 940px) {
+  .table-head__cell button {
+    display: inline;
+    text-align: left;
+  }
+
+  .table-head__text {
+    white-space: initial;
+  }
+
+  .content-row__cell span {
+    white-space: initial;
+  }
+
+  .content-row__cell--actions {
+    white-space: initial;
+  }
+
+  .actions__btn:first-child {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .main {
+    overflow-x: scroll;
+  }
+
+  .header__logo {
+    margin-right: 20px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .modal {
+    padding: 50px 20px;
+  }
+
+  .modal__content {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .modal__header-wrapper {
+    display: block;
+  }
+
+  .modal__header {
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  .modal__client-id {
+    padding-left: 15px;
+  }
+
+  .form__name-inputs-wrapper {
+    padding: 0 15px;
+  }
+
+  .form__add-contact {
+    padding: 25px 15px;
+  }
+
+  .add-contact__field-wrapper {
+    width: 100%;
+  }
+
+  .add-contact__input {
+    width: 100%;
+  }
+
+  .add-contact__delete-btn {
+    padding: 0 5px;
+  }
+}
