@@ -3,7 +3,7 @@ CRM-система. Таблица клиентов с функциями доб
 
 <br/>
 
-![blancard](https://ltdfoto.ru/images/2023/03/22/sfasfaf.jpg)
+![blancard](https://imageup.ru/img151/4286693/kk.png)
 <br/>
 
 ## Usage:
